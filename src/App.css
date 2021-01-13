@@ -1,0 +1,71 @@
+.App {
+  text-align: center;
+  width: 80%;
+  margin: 20px auto;
+  font-family: 'Roboto', sans-serif;
+}
+
+.App h3 {
+  color: #666;
+  font-size: 20px;
+  font-weight: 300;
+}
+
+.list-items {
+  margin-top: 25px;
+  text-align: left;
+}
+
+.delete {
+  display: block;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+  outline: none;
+  margin-right: 5px;
+}
+
+.todoItem {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-left: 4px solid #C412BB;
+  margin-bottom: 5px;
+  background:  #FFF6FE;
+}
+
+.todo {
+  margin: 5px 5px;
+}
+
+.delete:hover {
+  background-color: #FC695D;
+}
+
+input[type="text"] {
+  margin-right: 15px;
+  padding: 5px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-family: inherit;
+  width: 250px;
+  outline: none;
+}
+
+.btn-submit {
+  padding: 5px 10px;
+  font-family: inherit;
+  border: 1px solid #C412BB;
+  border-radius: 5px;
+  background: #FFF6FE;
+  outline: none;
+}
+
+.btn-submit:hover {
+  background: #FCDDFA;
+}
+
+
+
+
+
+
